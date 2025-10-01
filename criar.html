@@ -3,23 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <title>Cadastre-se - Pet Code</title>
+
     <link rel="shortcut icon" href="imagens/Icone.ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        
+        }
+        body{
+            background-color: #f4f1c9;
+        }
+        header{
+            background-color: #f4f1c9;
+        }
+        a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+fieldset{
+text-align:center;
+}
+
+
+
+
+    </style>
 </head>
 <body>
-    <header> <!--Menu da página-->
-        <nav class="menu">
-            <img src="imagens/logo.png" alt="logo" width="110">
-            <a href="index.html">Home</a>
-            <a href="loja.html">Loja</a>
-            <a href="serviços.html">Serviços</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="formulario.html">Entrar</a>
-</nav>
-</header>
-
-    <h1>Criar Nova Conta</h1> <!--Ao clicar em "criar conta" você é direcionado ao formulário de criação-->
+    <header> <!-- Menu da página-->
+    <nav>
+        <table>
+            <tr>
+                <th><img src="imagens/lpetcode.PNG" alt="logo" width="110"></th>
+                <th><a href="index.html">Home</a> </th>
+                <th><a href="loja.html">Loja</a> </th>
+                <th><a href="serviços.html">Serviços</a> </th>
+                <th><a href="sobre.html">Sobre</a></th>
+                <th><a href="formulario.html">Entrar</a></th>
+            </tr>
+    </table>
+    </nav>
+    </header>
+<fieldset>
+    <legend><h2>Criar Nova Conta</h2></legend> <!--Ao clicar em "criar conta" você é direcionado ao formulário de criação-->
     <form action="">
         <p><label for="inome">Nome </label><input type="text" name="nome" id="inome" required></p>
         <p><label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome" required></p>
@@ -29,7 +67,7 @@
         <p><label for=""></a></label><input type="checkbox" required>Eu li e concordo com o <a href="#">Termo de Uso.</a> e <a href="#"> Politica de privacidade do cliente</a></p>
 
     </form>
-    <hr>
+    </fieldset>
 
     <footer>
         <p><small>Copyright&copy; 2025 Pet Code - Todos os direitos reservados.</small></p>
