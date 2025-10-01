@@ -113,9 +113,10 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 24px;
   justify-content: space-around;
- background-color: #4a2604;
+  padding: 24px;
+  width: 100%;
+  background-color: #4a2604;
 }
 
 .logo {
