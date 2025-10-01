@@ -100,12 +100,11 @@ a:link {
     text-decoration: none;
   }
   footer{
-    display: flex;
     background-color: #4a2604;
     text-align: center;
     padding: 15px;
   }
-  h1, h2, h3, hg, .sec{
+  h1, h2, h3, p {
     text-align: center;
   }
 .cabecalho {
