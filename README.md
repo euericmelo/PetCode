@@ -1,6 +1,6 @@
 # 🐾 Site para Petshop
 
- Projeto desenvolvido como parte do curso de Desenvolvimento Web,este projeto envolveu o desenvolvimento de um site para um pet shop local, com ênfase em design funcional e experiência do usuário. O resultado foi uma plataforma digital simples, intuitiva e adaptada às necessidades do cliente, destacando-se como um exemplo de aplicação prática de conceitos aprendidos no curso.
+ Projeto desenvolvido como parte do curso de Desenvolvimento Web,este projeto envolveu o desenvolvimento de um site para um pet shop local, com ênfase em design funcional e experiência do usuário. O resultado foi uma plataforma digital simples, intuitiva e adaptada às necessidades do cliente, destacando-se como um exemplo de aplicação prática de conceitos aprendidos ate o momento no curso.
 
 ---
 
@@ -29,6 +29,8 @@ Criar uma plataforma responsiva e fácil de usar, auxiliando o proprietário do 
 ---
 
 ## 🔧 Melhorias Futuras
+
+- Adicionar css independe.
 - Adicionar interatividade com JavaScript.  
 - Criar painel administrativo para gestão de produtos e serviços.  
 - Integrar sistema de notificações para agendamentos.  
