@@ -111,8 +111,8 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   padding: 24px;
+ background-color: #4a2604;
 }
 
 .logo {
@@ -120,6 +120,7 @@ a:link {
 }
 
 .menu {
+  justify-content: flex-end;
   display: flex;
   gap: 22px;
 }
